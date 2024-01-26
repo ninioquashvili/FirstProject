@@ -1,0 +1,59 @@
+h1{
+   color: var(--neutral-500, #2F2E41);
+font-family: "Playfair Display";
+font-size: 86px;
+font-style: normal;
+font-weight: 700;
+line-height: 88px; /* 102.326% */
+letter-spacing: -1px;
+}
+p{
+color: var(--neutral-300, #9893A3);
+font-family: "Open Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px; /* 170% */
+}
+.btn_primary{
+border-radius: 2px;
+border: 1px solid var(--primary-400, #6C63FF);
+background: var(--primary-400, #6C63FF);
+padding:16px 30px;
+color: white;
+}
+.btn_secondary{
+border: 1px solid;
+background: transparent;
+padding: 16px 30px;
+color: #6c63ff;
+border-radius:0;
+}
+.brn_primary:hover{
+   background:transparent;
+   color:#6c63ff;
+}
+.brn_secondary:hover{
+   background:#6c63ff;
+   color: white;
+}
+.mt-130{
+   margin-top: 130px;
+}
+.mt-30{
+   margin-top: 30px;
+}
+.mt-220{
+   margin-top: 220px;
+}
+.btn.gradient{
+   font-family: "open sans";
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 20px;
+   letter-spacing: -1px;
+   background: rgb(197, 194, 240);
+   background: linear-gradient (0deg, rgba(197,194,240,1)46%, rgba(255,255,255,1)46%);
+   border: none;
+}
